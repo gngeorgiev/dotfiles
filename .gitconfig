@@ -11,4 +11,5 @@
 	ci = commit
 	st = status
 	pu = push
+	pl = pull
 	last = log -1 HEAD
