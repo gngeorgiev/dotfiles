@@ -14,4 +14,5 @@ i3status
 visual-studio-code
 dmenu
 font-awesome
+terminator
 ```
