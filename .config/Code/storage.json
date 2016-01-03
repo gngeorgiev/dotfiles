@@ -1,0 +1,59 @@
+{
+    "openedPathsList": {
+        "folders": [
+            "/home/gngeorgiev/go/src/epsilon",
+            "/home/gngeorgiev/Projects/epsilon",
+            "/home/gngeorgiev/Projects/Nodejs/PaaS"
+        ],
+        "files": []
+    },
+    "lastKnownKeybindings": {
+        "workbench.action.files.newUntitledFile": "Ctrl+N",
+        "workbench.action.files.openFile": "Ctrl+O",
+        "workbench.action.files.save": "Ctrl+S",
+        "workbench.action.files.saveAs": "Ctrl+Shift+S",
+        "workbench.action.newWindow": "Ctrl+Shift+N",
+        "workbench.action.closeWindow": "Ctrl+Shift+W",
+        "workbench.action.closeActiveEditor": "Ctrl+W",
+        "undo": "Ctrl+Z",
+        "redo": "Ctrl+Y",
+        "editor.action.clipboardCutAction": "Ctrl+X",
+        "editor.action.clipboardCopyAction": "Ctrl+C",
+        "editor.action.clipboardPasteAction": "Ctrl+V",
+        "editor.action.selectAll": "Ctrl+A",
+        "actions.find": "Ctrl+F",
+        "editor.action.startFindReplaceAction": "Ctrl+H",
+        "workbench.view.search": "Ctrl+Shift+F",
+        "workbench.action.showCommands": "Ctrl+Shift+P",
+        "workbench.action.showErrorsWarnings": "Ctrl+Shift+M",
+        "workbench.action.output.toggleOutput": "Ctrl+Shift+H",
+        "workbench.action.toggleFullScreen": "F11",
+        "workbench.action.splitEditor": "Ctrl+\\",
+        "workbench.action.toggleSidebarVisibility": "Ctrl+B",
+        "workbench.action.zoomIn": "Ctrl+=",
+        "workbench.action.zoomOut": "Ctrl+-",
+        "workbench.action.navigateBack": "Ctrl+Alt+-",
+        "workbench.action.navigateForward": "Ctrl+Shift+-",
+        "workbench.action.openPreviousEditor": "Ctrl+Tab",
+        "workbench.action.quickOpen": "Ctrl+P",
+        "workbench.action.gotoSymbol": "Ctrl+Shift+O",
+        "editor.action.goToDeclaration": "F12",
+        "workbench.action.gotoLine": "Ctrl+G"
+    },
+    "windowsState": {
+        "openedFolders": [],
+        "lastActiveWindow": {
+            "workspacePath": "/home/gngeorgiev/go/src/epsilon",
+            "uiState": {
+                "mode": 1,
+                "x": 0,
+                "y": 19,
+                "width": 1366,
+                "height": 749
+            }
+        }
+    },
+    "pickerWorkingDir": "/home/gngeorgiev/go/src",
+    "theme": "vs-dark vscode-theme-monokai-themes-Monokai-tmTheme",
+    "autoSaveDelay": 1000
+}
