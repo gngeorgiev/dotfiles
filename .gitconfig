@@ -10,4 +10,5 @@
 	br = branch
 	ci = commit
 	st = status
+	pu = push
 	last = log -1 HEAD
