@@ -1,0 +1,66 @@
+[global_config]
+  borderless = True
+  focus = system
+  title_inactive_bg_color = "#2b303b"
+  title_inactive_fg_color = "#aab2c2"
+  title_receive_bg_color = "#2b303b"
+  title_receive_fg_color = "#aab2c2"
+  title_transmit_bg_color = "#2b303b"
+  title_transmit_fg_color = "#aab2c2"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#2b303b"
+    background_darkness = 0.67
+    background_image = None
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#c2cad8"
+    font = Source Code Pro 11
+    foreground_color = "#c0c5ce"
+    palette = "#2b303b:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#c0c5ce:#65737e:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#eff1f5"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[base16-ocean-dark]]
+    background_color = "#2b303b"
+    background_darkness = 0.93
+    background_image = None
+    copy_on_selection = True
+    cursor_color = "#c2cad8"
+    font = Monaco Bold 10
+    foreground_color = "#c0c5ce"
+    palette = "#2b303b:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#c0c5ce:#65737e:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#eff1f5"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[solarized-dark]]
+    background_color = "#002b36"
+    background_image = None
+    cursor_color = "#eee8d5"
+    font = Monaco Bold 11
+    foreground_color = "#839496"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    show_titlebar = False
+    use_system_font = False
+  [[tomorrow-night]]
+    background_color = "#252525"
+    background_image = None
+    cursor_color = "#afafaf"
+    font = Menlo Bold 11
+    foreground_color = "#c5c8c6"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
