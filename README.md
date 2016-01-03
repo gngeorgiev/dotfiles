@@ -15,4 +15,5 @@ visual-studio-code
 dmenu
 font-awesome
 terminator
+feh
 ```
