@@ -17,3 +17,5 @@ font-awesome
 terminator
 feh
 ```
+
+![alt text](https://raw.githubusercontent.com/gngeorgiev/dotfiles/master/screenshot.png "Screenshot")
