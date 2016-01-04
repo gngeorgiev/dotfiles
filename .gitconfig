@@ -2,7 +2,7 @@
 	email = gngeorgiev.it@gmail.com
 	name = gngeorgiev
 [push]
-	default = simple
+	default = current
 [credential]
 	helper = cache --timeout=10080
 [alias]
@@ -11,5 +11,9 @@
 	ci = commit
 	st = status
 	pu = push
-	pl = pull
+    pl = pull
+    mr = merge --no-ff
+    pick = cherry-pick
 	last = log -1 HEAD
+[http]
+	postBuffer = 1048576000
