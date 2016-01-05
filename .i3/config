@@ -130,11 +130,19 @@ set $w3 "3 "
 #etc
 set $w4 "4 "
 
+#communication
+set $w5 "5 "
+
+#notes
+set $w6 "6 "
+
 #media
-set $w5 "5 "
+set $w8 "8 "
 
 #games
-set $w6 "6 "
+set $w9 "9 "
+
+
 
 # switch to workspace
 bindsym Mod1+1 workspace $w1
@@ -144,8 +152,8 @@ bindsym Mod1+4 workspace $w4
 bindsym Mod1+5 workspace $w5
 bindsym Mod1+6 workspace $w6
 bindsym Mod1+7 workspace 7
-bindsym Mod1+8 workspace 8
-bindsym Mod1+9 workspace 9
+bindsym Mod1+8 workspace $w8
+bindsym Mod1+9 workspace $w9
 bindsym Mod1+0 workspace 10
 
 # move focused container to workspace
@@ -154,10 +162,10 @@ bindsym Mod1+Shift+2 move container to workspace $w2
 bindsym Mod1+Shift+3 move container to workspace $w3
 bindsym Mod1+Shift+4 move container to workspace $w4
 bindsym Mod1+Shift+5 move container to workspace $w5
-bindsym Mod1+Shift+6 move container to workspace 6
+bindsym Mod1+Shift+6 move container to workspace $w6
 bindsym Mod1+Shift+7 move container to workspace 7
-bindsym Mod1+Shift+8 move container to workspace 8
-bindsym Mod1+Shift+9 move container to workspace 9
+bindsym Mod1+Shift+8 move container to workspace $w8
+bindsym Mod1+Shift+9 move container to workspace $w9
 bindsym Mod1+Shift+0 move container to workspace 10
 
 # reload the configuration file
@@ -285,4 +293,3 @@ bindsym XF86AudioPrev exec playerctl previous
 
 exec --no-startup-id nm-applet
 exec --no-startup-id feh --bg-fill ~/Pictures/materialwallpaper.png
-
