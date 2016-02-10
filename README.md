@@ -1,10 +1,11 @@
 # Dotfiles
 
-To install the configs in the right folder run
-
+Use
 ```bash
-$ bash install.sh
+dotman
 ```
+
+to install
 
 # Required software:
 
