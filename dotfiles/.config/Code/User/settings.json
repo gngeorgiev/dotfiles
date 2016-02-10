@@ -9,5 +9,6 @@
     "go.formatOnSave": true,
     "go.formatTool": "goreturns",
     "go.goroot": "/usr/lib/go",
-    "go.gopath": "/home/gngeorgiev/go"
+    "go.gopath": "/home/local/TELERIK/gngeorgiev/go",
+    "editor.renderWhitespace": true
 }

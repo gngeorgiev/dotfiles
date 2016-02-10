@@ -1,0 +1,7 @@
+export HOME=/home/gngeorgiev
+export NODE_PATH=/opt/node-v4.2.4-linux-x64/bin
+export PATH=$PATH:/mnt/backup/AndroidSDK/tools
+export ANDROID_HOME=/mnt/backup/AndroidSDK
+export PATH=$PATH:$NODE_PATH
+
+cd ~

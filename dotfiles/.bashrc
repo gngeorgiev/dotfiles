@@ -12,26 +12,21 @@ source ~/.bash_git
 # aliases
 alias ls='ls --color=auto'
 alias pacman='sudo pacman'
+alias install='pacman -S'
+alias remove='pacman -Rsc'
+alias search='pacman -Ss'
+alias update='pacman -Sy'
 alias mount='sudo mount'
 alias reboot='sudo reboot'
 alias ll='ls -la'
 alias l='ll'
 alias s='sudo'
 alias g='git'
+alias dw='/usr/local/bin/youtube-dl -x --audio-format mp3'
+alias xclip="xclip -selection c"
+alias server="http-server -c-1 -p "
 
 # exorts
-export GOPATH=~/go
-
-# PS1
-#PS1='[\u@\h \W]\$ '
-
-#  Customize BASH PS1 prompt to show current GIT repository and branch.
-#  by Mike Stewart - http://MediaDoneRight.com
-
-#  SETUP CONSTANTS
-#  Bunch-o-predefined colors.  Makes reading code easier than escape sequences.
-#  I don't remember where I found this.  o_O
-
 # Reset
 Color_Off="\[\033[0m\]"       # Text Reset
 
@@ -113,11 +108,9 @@ PathFull="\W"
 NewLine="\n"
 Jobs="\j"
 
-
-# This PS1 snippet was adopted from code for MAC/BSD I saw from: http://allancraig.net/index.php?option=com_content&view=article&id=108:ps1-export-command-for-git&catid=45:general&Itemid=96
-# I tweaked it to work on UBUNTU 11.04 & 11.10 plus made it mo' better
-
-export PS1=$IBlack$Time12h$Color_Off'$(git branch &>/dev/null;\
+export GOPATH=~/go
+export GOROOT=/usr/local/go
+export PS1=$NewLine'$(git branch &>/dev/null;\
 	if [ $? -eq 0 ]; then \
 		  echo "$(echo `git status` | grep "nothing to commit" > /dev/null 2>&1; \
 		    if [ "$?" -eq "0" ]; then \
@@ -126,12 +119,11 @@ export PS1=$IBlack$Time12h$Color_Off'$(git branch &>/dev/null;\
 	      else \
 		          # @5 - Changes to working tree
         echo "'$IRed'"$(__git_ps1 " {%s}"); \
-		  fi) '$BYellow$PathShort$Color_Off'\$ "; \
+		  fi) '$BYellow$PathShort$Color_Off' ➨ "; \
 	  else \
 		    # @2 - Prompt when not in GIT repo
-	  echo " '$Yellow$PathShort$Color_Off'\$ "; \
+	  echo " '$Yellow$PathShort$Color_Off' ➨ "; \
 	  fi)'
 
-export GOPATH=~/go
-
-LS_COLORS=$LS_COLORS:'di=0;35:' ; export LS_COLORS
+export LS_COLORS=$LS_COLORS:'di=0;35;'
+export PATH=$PATH:$GOPATH/bin

@@ -1,0 +1,31 @@
+[settings]
+    identifier = "distribution"
+
+[config]
+
+    [config.bash]
+        from = ".bashrc"
+    
+    [config.vim]
+        from = ".vimrc"
+    
+    [config.bash_git]
+        from = ".bash_git"
+        
+    [config.gitconfig]
+        from = ".gitconfig"
+    
+    [config.i3_config]
+        from = ".i3/config"
+        
+    [config.i3_status]
+        from = ".i3/i3status.conf"
+    
+    [config.terminator]
+        from = ".config/terminator/config"
+        
+    [config.vscode_settings]
+        from = ".config/Code/User/settings.json"
+        
+    [config.vscode_keybindings]
+        from = ".config/Code/User/keybindings.json"

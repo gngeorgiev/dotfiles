@@ -6,7 +6,6 @@ popup_during_fullscreen smart
 # force hdmi detection
 force_xinerama yes
 
-
 # i3 config file (v4)
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
@@ -244,7 +243,7 @@ bar {
 }
 
 # window style
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 1
 new_window normal
 new_float normal
 
@@ -293,3 +292,6 @@ bindsym XF86AudioPrev exec playerctl previous
 
 exec --no-startup-id nm-applet
 exec --no-startup-id feh --bg-fill ~/Pictures/materialwallpaper.png
+
+#exec setxkbmap -option grp:alt_shift_toggle "us,bg" -option grp_led:caps
+exec setxkbmap -option grp:ctrl_shift_toggle,grp_led:scroll us,bg -varian ,phonetic

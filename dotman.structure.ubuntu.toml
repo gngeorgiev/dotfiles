@@ -1,0 +1,40 @@
+[settings]
+  identifier = "distribution"
+
+[config]
+  [config.bash]
+    name = "bash"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.bashrc"
+    to = "/home/gngeorgiev/.bashrc"
+  [config.bash_git]
+    name = "bash_git"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.bash_git"
+    to = "/home/gngeorgiev/.bash_git"
+  [config.gitconfig]
+    name = "gitconfig"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.gitconfig"
+    to = "/home/gngeorgiev/.gitconfig"
+  [config.i3_config]
+    name = "i3_config"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.i3/config"
+    to = "/home/gngeorgiev/.i3/config"
+  [config.i3_status]
+    name = "i3_status"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.i3/i3status.conf"
+    to = "/home/gngeorgiev/.i3/i3status.conf"
+  [config.terminator]
+    name = "terminator"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.config/terminator/config"
+    to = "/home/gngeorgiev/.config/terminator/config"
+  [config.vim]
+    name = "vim"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.vimrc"
+    to = "/home/gngeorgiev/.vimrc"
+  [config.vscode_keybindings]
+    name = "vscode_keybindings"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.config/Code/User/keybindings.json"
+    to = "/home/gngeorgiev/.config/Code/User/keybindings.json"
+  [config.vscode_settings]
+    name = "vscode_settings"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.config/Code/User/settings.json"
+    to = "/home/gngeorgiev/.config/Code/User/settings.json"

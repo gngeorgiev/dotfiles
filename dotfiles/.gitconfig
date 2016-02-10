@@ -13,6 +13,8 @@
 	pu = push
     pl = pull
     mr = merge --no-ff
+    lo = log --oneline --source
+    find = log --all --grep
     pick = cherry-pick
 	last = log -1 HEAD
 [http]
