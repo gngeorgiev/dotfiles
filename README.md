@@ -10,13 +10,16 @@ to install
 # Required software:
 
 ```
-i3wm
-i3status
-visual-studio-code
-dmenu
+i3wm+gaps
+i3blocks
+i3lock+blur
+setxkbmap
+rofi
 font-awesome
 terminator
 feh
+compton
+yad
 ```
 
 ![alt text](https://raw.githubusercontent.com/gngeorgiev/dotfiles/master/screenshot.png "Screenshot")
