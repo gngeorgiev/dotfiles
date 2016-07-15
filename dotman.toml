@@ -19,7 +19,7 @@
         from = ".i3/config"
 
     [config.i3_blocks]
-        from = ".i3/blocks.conf"
+        from = ".i3/i3blocks.conf"
 
     [config.i3_blocks_scripts]
         from = ".i3/blocks"
