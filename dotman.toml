@@ -1,34 +1,40 @@
 [settings]
-    identifier = "distribution"
+  identifier = "distribution"
 
 [config]
-
-    [config.zsh]
-        from = ".zshrc"
-
-    [config.Xresources]
-        from = ".Xresources"
-
-    [config.bash_git]
-        from = ".bash_git"
-
-    [config.gitconfig]
-        from = ".gitconfig"
-
-    [config.i3_config]
-        from = ".i3/config"
-
-    [config.i3_blocks]
-        from = ".i3/i3blocks.conf"
-
-    [config.i3_blocks_scripts]
-        from = ".i3/blocks"
-
-    [config.i3_scripts]
-        from = ".i3/scripts"
-
-    [config.terminator]
-        from = ".config/terminator/config"
-
-    [config.background]
-        from = 'Pictures/Jzn5hwl-epic-desktop-backgrounds.jpg'
+  [config.".Xresources"]
+    from = ".Xresources"
+  [config.".bash_git"]
+    from = ".bash_git"
+  [config.".config_terminator_config"]
+    from = ".config/terminator/config"
+  [config.".gitconfig"]
+    from = ".gitconfig"
+  [config.".i3_blocks_bandwidth"]
+    from = ".i3/blocks/bandwidth"
+  [config.".i3_blocks_cpu_usage"]
+    from = ".i3/blocks/cpu_usage"
+  [config.".i3_blocks_disk"]
+    from = ".i3/blocks/disk"
+  [config.".i3_blocks_exit"]
+    from = ".i3/blocks/exit"
+  [config.".i3_blocks_keyboard_layout"]
+    from = ".i3/blocks/keyboard_layout"
+  [config.".i3_blocks_memory"]
+    from = ".i3/blocks/memory"
+  [config.".i3_blocks_time_and_date"]
+    from = ".i3/blocks/time_and_date"
+  [config.".i3_blocks_volume"]
+    from = ".i3/blocks/volume"
+  [config.".i3_config"]
+    from = ".i3/config"
+  [config.".i3_i3blocks.conf"]
+    from = ".i3/i3blocks.conf"
+  [config.".i3_scripts_exit.sh"]
+    from = ".i3/scripts/exit.sh"
+  [config.".i3_scripts_lock.sh"]
+    from = ".i3/scripts/lock.sh"
+  [config.".zshrc"]
+    from = ".zshrc"
+  [config."Pictures_Jzn5hwl-epic-desktop-backgrounds.jpg"]
+    from = "Pictures/Jzn5hwl-epic-desktop-backgrounds.jpg"

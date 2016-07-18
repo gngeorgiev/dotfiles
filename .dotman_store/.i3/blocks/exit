@@ -1,0 +1,25 @@
+#!/bin/bash
+
+script="$HOME/.i3/scripts/exit.sh"
+
+exit() {
+	local action=$(yad --width 300 --center --on-top --no-taskbar --entry --title "Exit" \
+		--image=gnome-shutdown \
+		--button="gtk-ok:0" --button="gtk-close:1" \
+		--entry-text \
+		"Lock" "Logout" "Shutdown" "Reboot")
+
+	case $action in
+        "Lock") ~/.i3/scripts/lock.sh;;
+		"Logout") i3-msg exit;;
+		"Shutdown") sudo "$script" shutdown;;
+		"Reboot") sudo "$script" reboot;;
+	esac
+}
+
+case $BLOCK_BUTTON in
+	1) exit;;   # left click
+esac
+
+# Surrounded by spaces to render a button-style like
+echo "<span color='red'>   </span>"

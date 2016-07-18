@@ -2,39 +2,75 @@
   identifier = "distribution"
 
 [config]
-  [config.bash]
-    name = "bash"
-    from = "/home/gngeorgiev/dotfiles/dotfiles/.bashrc"
-    to = "/home/gngeorgiev/.bashrc"
-  [config.bash_git]
-    name = "bash_git"
-    from = "/home/gngeorgiev/dotfiles/dotfiles/.bash_git"
-    to = "/home/gngeorgiev/.bash_git"
-  [config.gitconfig]
-    name = "gitconfig"
-    from = "/home/gngeorgiev/dotfiles/dotfiles/.gitconfig"
-    to = "/home/gngeorgiev/.gitconfig"
-  [config.i3_config]
-    name = "i3_config"
-    from = "/home/gngeorgiev/dotfiles/dotfiles/.i3/config"
-    to = "/home/gngeorgiev/.i3/config"
-  [config.i3_status]
-    name = "i3_status"
-    from = "/home/gngeorgiev/dotfiles/dotfiles/.i3/i3status.conf"
-    to = "/home/gngeorgiev/.i3/i3status.conf"
-  [config.terminator]
-    name = "terminator"
-    from = "/home/gngeorgiev/dotfiles/dotfiles/.config/terminator/config"
-    to = "/home/gngeorgiev/.config/terminator/config"
-  [config.vim]
-    name = "vim"
-    from = "/home/gngeorgiev/dotfiles/dotfiles/.vimrc"
-    to = "/home/gngeorgiev/.vimrc"
-  [config.vscode_keybindings]
-    name = "vscode_keybindings"
-    from = "/home/gngeorgiev/dotfiles/dotfiles/.config/Code/User/keybindings.json"
-    to = "/home/gngeorgiev/.config/Code/User/keybindings.json"
-  [config.vscode_settings]
-    name = "vscode_settings"
-    from = "/home/gngeorgiev/dotfiles/dotfiles/.config/Code/User/settings.json"
-    to = "/home/gngeorgiev/.config/Code/User/settings.json"
+  [config.".Xresources"]
+    name = ".Xresources"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/.Xresources"
+    to = "/home/local/TELERIK/gngeorgiev/.Xresources"
+  [config.".bash_git"]
+    name = ".bash_git"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/.bash_git"
+    to = "/home/local/TELERIK/gngeorgiev/.bash_git"
+  [config.".config_terminator_config"]
+    name = ".config_terminator_config"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/.config/terminator/config"
+    to = "/home/local/TELERIK/gngeorgiev/.config/terminator/config"
+  [config.".gitconfig"]
+    name = ".gitconfig"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/.gitconfig"
+    to = "/home/local/TELERIK/gngeorgiev/.gitconfig"
+  [config.".i3_blocks_bandwidth"]
+    name = ".i3_blocks_bandwidth"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/.i3/blocks/bandwidth"
+    to = "/home/local/TELERIK/gngeorgiev/.i3/blocks/bandwidth"
+  [config.".i3_blocks_cpu_usage"]
+    name = ".i3_blocks_cpu_usage"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/.i3/blocks/cpu_usage"
+    to = "/home/local/TELERIK/gngeorgiev/.i3/blocks/cpu_usage"
+  [config.".i3_blocks_disk"]
+    name = ".i3_blocks_disk"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/.i3/blocks/disk"
+    to = "/home/local/TELERIK/gngeorgiev/.i3/blocks/disk"
+  [config.".i3_blocks_exit"]
+    name = ".i3_blocks_exit"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/.i3/blocks/exit"
+    to = "/home/local/TELERIK/gngeorgiev/.i3/blocks/exit"
+  [config.".i3_blocks_keyboard_layout"]
+    name = ".i3_blocks_keyboard_layout"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/.i3/blocks/keyboard_layout"
+    to = "/home/local/TELERIK/gngeorgiev/.i3/blocks/keyboard_layout"
+  [config.".i3_blocks_memory"]
+    name = ".i3_blocks_memory"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/.i3/blocks/memory"
+    to = "/home/local/TELERIK/gngeorgiev/.i3/blocks/memory"
+  [config.".i3_blocks_time_and_date"]
+    name = ".i3_blocks_time_and_date"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/.i3/blocks/time_and_date"
+    to = "/home/local/TELERIK/gngeorgiev/.i3/blocks/time_and_date"
+  [config.".i3_blocks_volume"]
+    name = ".i3_blocks_volume"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/.i3/blocks/volume"
+    to = "/home/local/TELERIK/gngeorgiev/.i3/blocks/volume"
+  [config.".i3_config"]
+    name = ".i3_config"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/.i3/config"
+    to = "/home/local/TELERIK/gngeorgiev/.i3/config"
+  [config.".i3_i3blocks.conf"]
+    name = ".i3_i3blocks.conf"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/.i3/i3blocks.conf"
+    to = "/home/local/TELERIK/gngeorgiev/.i3/i3blocks.conf"
+  [config.".i3_scripts_exit.sh"]
+    name = ".i3_scripts_exit.sh"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/.i3/scripts/exit.sh"
+    to = "/home/local/TELERIK/gngeorgiev/.i3/scripts/exit.sh"
+  [config.".i3_scripts_lock.sh"]
+    name = ".i3_scripts_lock.sh"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/.i3/scripts/lock.sh"
+    to = "/home/local/TELERIK/gngeorgiev/.i3/scripts/lock.sh"
+  [config.".zshrc"]
+    name = ".zshrc"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/.zshrc"
+    to = "/home/local/TELERIK/gngeorgiev/.zshrc"
+  [config."Pictures_Jzn5hwl-epic-desktop-backgrounds.jpg"]
+    name = "Pictures_Jzn5hwl-epic-desktop-backgrounds.jpg"
+    from = "/home/local/TELERIK/gngeorgiev/dotfiles/dotfiles/Pictures/Jzn5hwl-epic-desktop-backgrounds.jpg"
+    to = "/home/local/TELERIK/gngeorgiev/Pictures/Jzn5hwl-epic-desktop-backgrounds.jpg"

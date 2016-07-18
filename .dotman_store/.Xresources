@@ -1,0 +1,60 @@
+! ------------------------------------------------------------------------------
+!
+! ROFI
+!
+! ------------------------------------------------------------------------------
+
+rofi.modi: combi
+rofi.combi-modi: window,run,ssh,drun
+! rofi.switchers combi -combi-modi ""
+!! Monitor id to show on
+rofi.m:    -1
+
+! ----------
+! Appearance
+! ----------
+
+!! Border width
+rofi.bw:                0
+rofi.columns:           1
+rofi.fake-transparency: true
+rofi.font:              Source Code Pro 12
+rofi.fullscreen:        false
+rofi.fuzzy:             true
+rofi.hide-scrollbar:    true
+rofi.line-margin:       10
+rofi.lines:             15
+rofi.location:          0
+rofi.opacity:           90
+rofi.padding:           20
+!! Style: none, dash, solid
+rofi.separator-style:   none
+rofi.sidebar-mode:      true
+
+! -----------
+! Keybindings
+! -----------
+
+rofi.kb-mode-next: Tab
+rofi.kb-mode-previous: Shift+Tab
+rofi.kb-accept-entry: Return,KP_Enter
+rofi.kb-cancel: Escape,Control+c
+
+! -----------
+! Color theme
+! -----------
+
+! For transparency e.g. argb:ee2b2e37
+# define rofi_bg #2b2e37
+# define rofi_fg #c1c1c1
+! # define rofi_border #161619
+# define rofi_fg_hi #ffffff
+# define rofi_blue #4989d7
+# define rofi_blue2 #4d6b8e
+# define rofi_red #dc322f
+
+rofi.color-enabled: true
+rofi.color-window: rofi_bg, rofi_bg   , rofi_blue
+rofi.color-normal: rofi_bg, rofi_fg   , rofi_bg, rofi_bg, rofi_blue
+rofi.color-active: rofi_bg, rofi_fg_hi, rofi_bg, rofi_bg, rofi_blue2
+rofi.color-urgent: rofi_bg, rofi_red  , rofi_bg, rofi_bg, rofi_red
