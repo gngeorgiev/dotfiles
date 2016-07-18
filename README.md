@@ -20,6 +20,8 @@ terminator
 feh
 compton
 yad
+zsh
+oh-my-zsh
 ```
 
 ![alt text](https://raw.githubusercontent.com/gngeorgiev/dotfiles/master/screenshot.png "Screenshot")

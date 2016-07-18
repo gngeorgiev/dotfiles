@@ -1,0 +1,76 @@
+[settings]
+  identifier = "distribution"
+
+[config]
+  [config.".Xresources"]
+    name = ".Xresources"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.Xresources"
+    to = "/home/gngeorgiev/.Xresources"
+  [config.".bash_git"]
+    name = ".bash_git"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.bash_git"
+    to = "/home/gngeorgiev/.bash_git"
+  [config.".config_terminator_config"]
+    name = ".config_terminator_config"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.config/terminator/config"
+    to = "/home/gngeorgiev/.config/terminator/config"
+  [config.".gitconfig"]
+    name = ".gitconfig"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.gitconfig"
+    to = "/home/gngeorgiev/.gitconfig"
+  [config.".i3_blocks_bandwidth"]
+    name = ".i3_blocks_bandwidth"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.i3/blocks/bandwidth"
+    to = "/home/gngeorgiev/.i3/blocks/bandwidth"
+  [config.".i3_blocks_cpu_usage"]
+    name = ".i3_blocks_cpu_usage"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.i3/blocks/cpu_usage"
+    to = "/home/gngeorgiev/.i3/blocks/cpu_usage"
+  [config.".i3_blocks_disk"]
+    name = ".i3_blocks_disk"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.i3/blocks/disk"
+    to = "/home/gngeorgiev/.i3/blocks/disk"
+  [config.".i3_blocks_exit"]
+    name = ".i3_blocks_exit"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.i3/blocks/exit"
+    to = "/home/gngeorgiev/.i3/blocks/exit"
+  [config.".i3_blocks_keyboard_layout"]
+    name = ".i3_blocks_keyboard_layout"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.i3/blocks/keyboard_layout"
+    to = "/home/gngeorgiev/.i3/blocks/keyboard_layout"
+  [config.".i3_blocks_memory"]
+    name = ".i3_blocks_memory"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.i3/blocks/memory"
+    to = "/home/gngeorgiev/.i3/blocks/memory"
+  [config.".i3_blocks_time_and_date"]
+    name = ".i3_blocks_time_and_date"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.i3/blocks/time_and_date"
+    to = "/home/gngeorgiev/.i3/blocks/time_and_date"
+  [config.".i3_blocks_volume"]
+    name = ".i3_blocks_volume"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.i3/blocks/volume"
+    to = "/home/gngeorgiev/.i3/blocks/volume"
+  [config.".i3_config"]
+    name = ".i3_config"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.i3/config"
+    to = "/home/gngeorgiev/.i3/config"
+  [config.".i3_i3blocks.conf"]
+    name = ".i3_i3blocks.conf"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.i3/i3blocks.conf"
+    to = "/home/gngeorgiev/.i3/i3blocks.conf"
+  [config.".i3_scripts_exit.sh"]
+    name = ".i3_scripts_exit.sh"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.i3/scripts/exit.sh"
+    to = "/home/gngeorgiev/.i3/scripts/exit.sh"
+  [config.".i3_scripts_lock.sh"]
+    name = ".i3_scripts_lock.sh"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.i3/scripts/lock.sh"
+    to = "/home/gngeorgiev/.i3/scripts/lock.sh"
+  [config.".zshrc"]
+    name = ".zshrc"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/.zshrc"
+    to = "/home/gngeorgiev/.zshrc"
+  [config."Pictures_Jzn5hwl-epic-desktop-backgrounds.jpg"]
+    name = "Pictures_Jzn5hwl-epic-desktop-backgrounds.jpg"
+    from = "/home/gngeorgiev/dotfiles/dotfiles/Pictures/Jzn5hwl-epic-desktop-backgrounds.jpg"
+    to = "/home/gngeorgiev/Pictures/Jzn5hwl-epic-desktop-backgrounds.jpg"

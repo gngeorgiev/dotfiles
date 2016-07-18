@@ -91,19 +91,3 @@ alias s='sudo'
 alias g='git'
 alias xclip="xclip -selection c"
 alias server="http-server -c-1 -p "
-
-alias install='s apt-get install'
-alias update='s apt-get update'
-alias upgrade='s apt-get upgrade'
-alias remove='s apt-get remove'
-
-export GO15VENDOREXPERIMENT=0
-export GOPATH=~/go
-export GOBIN=~/go/bin
-export GOROOT=/usr/local/go
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:/mnt/backup/AndroidSDK/tools
-export PATH=$PATH:/opt/go_appengine
-export PATH=$PATH:/home/local/TELERIK/gngeorgiev/.cargo/bin
-export ANDROID_HOME=/mnt/backup/AndroidSDK
-export RUST_SRC_PATH=/home/local/TELERIK/gngeorgiev/stuff/rustSrc/rustc-1.8.0

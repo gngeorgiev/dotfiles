@@ -209,7 +209,7 @@ bar {
 # startup apps
 
 exec --no-startup-id feh --bg-fill ~/Pictures/Jzn5hwl-epic-desktop-backgrounds.jpg
-exec --no-startup-id setxkbmap us,bg ,phonetic grp:alt_shift_toggle,grp_led:scroll
+#exec --no-startup-id setxkbmap us,bg ,phonetic grp:alt_shift_toggle,grp_led:scroll
 
 #########
 # WINDOWS
